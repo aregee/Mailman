@@ -1,0 +1,302 @@
+Feb 20 03:03:37 2013 (12845) Master started
+Feb 20 03:03:39 2013 (12854) OutgoingRunner runner started.
+Feb 20 03:03:39 2013 (12851) DigestRunner runner started.
+Feb 20 03:03:40 2013 (12855) VirginRunner runner started.
+Feb 20 03:03:40 2013 (12859) LMTPRunner runner started.
+Feb 20 03:03:40 2013 (12850) IncomingRunner runner started.
+Feb 20 03:03:40 2013 (12860) CommandRunner runner started.
+Feb 20 03:03:40 2013 (12853) ArchiveRunner runner started.
+Feb 20 03:03:40 2013 (12856) RetryRunner runner started.
+Feb 20 03:03:40 2013 (12857) RESTRunner runner started.
+Feb 20 03:03:40 2013 (12857) Starting REST server
+Feb 20 03:03:40 2013 (12861) NNTPRunner runner started.
+Feb 20 03:03:41 2013 (12852) PipelineRunner runner started.
+Feb 20 03:03:41 2013 (12858) BounceRunner runner started.
+Feb 20 03:06:18 2013 (12857) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Feb 20 03:06:25 2013 (12857) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Feb 20 03:06:35 2013 (12857) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Feb 20 03:06:40 2013 (12857) localhost.localdomain - - "GET /3.0/domains HTTP/1.1" 200 90
+Feb 20 03:07:05 2013 (12857) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Feb 20 03:10:49 2013 (12857) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Feb 20 03:10:52 2013 (12857) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Feb 20 03:13:48 2013 (12856) RetryRunner runner caught SIGTERM.  Stopping.
+Feb 20 03:13:48 2013 (12861) NNTPRunner runner caught SIGTERM.  Stopping.
+Feb 20 03:13:48 2013 (12859) LMTPRunner runner caught SIGTERM.  Stopping.
+Feb 20 03:13:48 2013 (12856) RetryRunner runner exiting.
+Feb 20 03:13:48 2013 (12861) NNTPRunner runner exiting.
+Feb 20 03:13:48 2013 (12859) LMTPRunner runner exiting.
+Feb 20 03:13:48 2013 (12845) Master watcher caught SIGTERM.  Exiting.
+Feb 20 03:13:48 2013 (12853) ArchiveRunner runner caught SIGTERM.  Stopping.
+Feb 20 03:13:48 2013 (12853) ArchiveRunner runner exiting.
+Feb 20 03:13:48 2013 (12851) DigestRunner runner caught SIGTERM.  Stopping.
+Feb 20 03:13:48 2013 (12852) PipelineRunner runner caught SIGTERM.  Stopping.
+Feb 20 03:13:48 2013 (12852) PipelineRunner runner exiting.
+Feb 20 03:13:48 2013 (12851) DigestRunner runner exiting.
+Feb 20 03:13:48 2013 (12860) CommandRunner runner caught SIGTERM.  Stopping.
+Feb 20 03:13:48 2013 (12860) CommandRunner runner exiting.
+Feb 20 03:13:48 2013 (12850) IncomingRunner runner caught SIGTERM.  Stopping.
+Feb 20 03:13:48 2013 (12850) IncomingRunner runner caught SIGTERM.  Stopping.
+Feb 20 03:13:48 2013 (12850) IncomingRunner runner exiting.
+Feb 20 03:13:48 2013 (12854) OutgoingRunner runner caught SIGTERM.  Stopping.
+Feb 20 03:13:48 2013 (12854) OutgoingRunner runner exiting.
+Feb 20 03:13:48 2013 (12858) BounceRunner runner caught SIGTERM.  Stopping.
+Feb 20 03:13:48 2013 (12858) BounceRunner runner exiting.
+Feb 20 03:13:48 2013 (12857) REST server shutdown
+Feb 20 03:13:48 2013 (12855) VirginRunner runner caught SIGTERM.  Stopping.
+Feb 20 03:13:48 2013 (12855) VirginRunner runner exiting.
+Feb 20 03:13:48 2013 (12845) Master stopped
+Apr 05 03:29:36 2013 (8514) Master started
+Apr 05 03:29:39 2013 (8521) PipelineRunner runner started.
+Apr 05 03:29:39 2013 (8529) CommandRunner runner started.
+Apr 05 03:29:39 2013 (8527) BounceRunner runner started.
+Apr 05 03:29:39 2013 (8522) ArchiveRunner runner started.
+Apr 05 03:29:39 2013 (8523) OutgoingRunner runner started.
+Apr 05 03:29:39 2013 (8530) NNTPRunner runner started.
+Apr 05 03:29:39 2013 (8526) RESTRunner runner started.
+Apr 05 03:29:39 2013 (8526) Starting REST server
+Apr 05 03:29:39 2013 (8524) VirginRunner runner started.
+Apr 05 03:29:39 2013 (8520) DigestRunner runner started.
+Apr 05 03:29:40 2013 (8519) IncomingRunner runner started.
+Apr 05 03:29:40 2013 (8528) LMTPRunner runner started.
+Apr 05 03:29:40 2013 (8525) RetryRunner runner started.
+Apr 05 03:32:01 2013 (8526) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Apr 05 03:38:08 2013 (8526) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Apr 05 03:38:15 2013 (8526) localhost.localdomain - - "GET /3.0/users HTTP/1.1" 200 90
+Apr 05 03:38:17 2013 (8526) localhost.localdomain - - "GET /3.0/users HTTP/1.1" 200 90
+Apr 05 03:38:23 2013 (8526) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Apr 05 03:38:28 2013 (8526) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Apr 05 03:51:07 2013 (8526) localhost.localdomain - - "GET /3.0/users HTTP/1.1" 200 90
+Apr 05 03:51:09 2013 (8526) localhost.localdomain - - "GET /3.0/users HTTP/1.1" 200 90
+Apr 05 03:51:11 2013 (8526) localhost.localdomain - - "GET /3.0/users HTTP/1.1" 200 90
+Apr 05 03:51:12 2013 (8526) localhost.localdomain - - "GET /3.0/users HTTP/1.1" 200 90
+Apr 05 03:51:29 2013 (8526) localhost.localdomain - - "POST /3.0/users HTTP/1.1" 201 0
+Apr 05 03:51:29 2013 (8526) localhost.localdomain - - "GET /3.0/users HTTP/1.1" 200 512
+Apr 05 03:51:29 2013 (8526) localhost.localdomain - - "GET /3.0/users/294427385166373762440620075950731183626 HTTP/1.1" 200 407
+Apr 05 03:51:29 2013 (8526) localhost.localdomain - - "GET /3.0/users/294427385166373762440620075950731183626/addresses HTTP/1.1" 200 370
+Apr 05 03:51:36 2013 (8526) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Apr 05 03:51:38 2013 (8526) localhost.localdomain - - "GET /3.0/domains HTTP/1.1" 200 90
+Apr 05 03:51:53 2013 (8526) localhost.localdomain - - "GET /3.0/domains HTTP/1.1" 200 90
+Apr 05 03:52:15 2013 (8526) localhost.localdomain - - "GET /3.0/users/are@gee.com HTTP/1.1" 404 13
+Apr 05 21:13:38 2013 (8514) Master watcher caught SIGTERM.  Exiting.
+Apr 05 21:13:38 2013 (8528) LMTPRunner runner caught SIGTERM.  Stopping.
+Apr 05 21:13:38 2013 (8525) RetryRunner runner caught SIGTERM.  Stopping.
+Apr 05 21:13:38 2013 (8524) VirginRunner runner caught SIGTERM.  Stopping.
+Apr 05 21:13:38 2013 (8520) DigestRunner runner caught SIGTERM.  Stopping.
+Apr 05 21:13:39 2013 (8528) LMTPRunner runner exiting.
+Apr 05 21:13:39 2013 (8525) RetryRunner runner exiting.
+Apr 05 21:13:39 2013 (8524) VirginRunner runner exiting.
+Apr 05 21:13:39 2013 (8520) DigestRunner runner exiting.
+Apr 05 21:13:38 2013 (8522) ArchiveRunner runner caught SIGTERM.  Stopping.
+Apr 05 21:13:39 2013 (8522) ArchiveRunner runner exiting.
+Apr 05 21:13:38 2013 (8521) PipelineRunner runner caught SIGTERM.  Stopping.
+Apr 05 21:13:38 2013 (8519) IncomingRunner runner caught SIGTERM.  Stopping.
+Apr 05 21:13:39 2013 (8521) PipelineRunner runner exiting.
+Apr 05 21:13:39 2013 (8519) IncomingRunner runner exiting.
+Apr 05 21:13:38 2013 (8523) OutgoingRunner runner caught SIGTERM.  Stopping.
+Apr 05 21:13:38 2013 (8529) CommandRunner runner caught SIGTERM.  Stopping.
+Apr 05 21:13:39 2013 (8523) OutgoingRunner runner exiting.
+Apr 05 21:13:39 2013 (8529) CommandRunner runner exiting.
+Apr 05 21:13:38 2013 (8530) NNTPRunner runner caught SIGTERM.  Stopping.
+Apr 05 21:13:38 2013 (8527) BounceRunner runner caught SIGTERM.  Stopping.
+Apr 05 21:13:39 2013 (8527) BounceRunner runner exiting.
+Apr 05 21:13:39 2013 (8530) NNTPRunner runner exiting.
+Apr 05 21:13:39 2013 (8526) REST server shutdown
+Apr 05 21:13:39 2013 (8514) Master stopped
+Apr 22 17:43:16 2013 (3067) Master started
+Apr 22 17:43:19 2013 (3076) OutgoingRunner runner started.
+Apr 22 17:43:19 2013 (3080) BounceRunner runner started.
+Apr 22 17:43:19 2013 (3073) DigestRunner runner started.
+Apr 22 17:43:19 2013 (3072) IncomingRunner runner started.
+Apr 22 17:43:19 2013 (3082) CommandRunner runner started.
+Apr 22 17:43:19 2013 (3079) RESTRunner runner started.
+Apr 22 17:43:19 2013 (3079) Starting REST server
+Apr 22 17:43:19 2013 (3075) ArchiveRunner runner started.
+Apr 22 17:43:19 2013 (3083) NNTPRunner runner started.
+Apr 22 17:43:19 2013 (3078) RetryRunner runner started.
+Apr 22 17:43:19 2013 (3077) VirginRunner runner started.
+Apr 22 17:43:20 2013 (3081) LMTPRunner runner started.
+Apr 22 17:43:21 2013 (3074) PipelineRunner runner started.
+Apr 22 17:45:20 2013 (3079) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Apr 22 17:45:30 2013 (3079) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Apr 22 17:45:46 2013 (3079) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Apr 22 17:45:55 2013 (3079) localhost.localdomain - - "GET /3.0/users/are@gee.com HTTP/1.1" 404 13
+Apr 22 17:46:16 2013 (3079) localhost.localdomain - - "GET /3.0/users/are@gee.com HTTP/1.1" 404 13
+Apr 22 17:46:25 2013 (3079) localhost.localdomain - - "GET /3.0/users HTTP/1.1" 200 512
+Apr 22 17:46:25 2013 (3079) localhost.localdomain - - "GET /3.0/users/294427385166373762440620075950731183626 HTTP/1.1" 200 407
+Apr 22 17:46:25 2013 (3079) localhost.localdomain - - "GET /3.0/users/294427385166373762440620075950731183626/addresses HTTP/1.1" 200 370
+Apr 22 17:46:31 2013 (3079) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Apr 22 17:47:47 2013 (3079) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Apr 22 17:47:51 2013 (3079) localhost.localdomain - - "GET /3.0/users HTTP/1.1" 200 512
+Apr 22 17:47:51 2013 (3079) localhost.localdomain - - "GET /3.0/users/294427385166373762440620075950731183626 HTTP/1.1" 200 407
+Apr 22 17:47:51 2013 (3079) localhost.localdomain - - "GET /3.0/users/294427385166373762440620075950731183626/addresses HTTP/1.1" 200 370
+Apr 22 17:48:32 2013 (3079) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Apr 22 17:48:57 2013 (3079) localhost.localdomain - - "GET /3.0/users/rahul.nbg@gmail.com HTTP/1.1" 404 13
+Apr 22 17:49:04 2013 (3079) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Apr 22 17:49:07 2013 (3079) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Apr 22 17:49:33 2013 (3079) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Apr 22 17:49:38 2013 (3079) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Apr 22 17:49:40 2013 (3079) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Apr 22 17:49:42 2013 (3079) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Apr 22 17:49:59 2013 (3079) localhost.localdomain - - "GET /3.0/users/rahul.nbg@gmail.com HTTP/1.1" 404 13
+Apr 22 17:50:42 2013 (3079) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Apr 22 17:50:45 2013 (3079) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Apr 22 17:50:47 2013 (3079) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Apr 22 17:50:58 2013 (3079) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Apr 22 18:24:00 2013 (3079) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Apr 22 18:25:33 2013 (3079) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Apr 22 18:35:40 2013 (3079) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Apr 22 18:36:32 2013 (3079) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Apr 22 18:52:45 2013 (3079) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Apr 22 18:55:00 2013 (3079) localhost.localdomain - - "GET / HTTP/1.1" 405 22
+Apr 22 18:55:00 2013 (3079) localhost.localdomain - - "GET /favicon.ico HTTP/1.1" 404 13
+Apr 22 18:55:07 2013 (3079) localhost.localdomain - - "GET / HTTP/1.1" 405 22
+Apr 22 18:55:07 2013 (3079) localhost.localdomain - - "GET /favicon.ico HTTP/1.1" 404 13
+Apr 22 18:55:14 2013 (3079) localhost.localdomain - - "GET / HTTP/1.1" 405 22
+Apr 22 18:55:36 2013 (3079) localhost.localdomain - - "GET /restadminclear HTTP/1.1" 404 13
+Apr 22 18:55:49 2013 (3079) localhost.localdomain - - "GET /restadmin/restpass/ HTTP/1.1" 404 13
+Apr 22 18:55:54 2013 (3079) localhost.localdomain - - "GET /restadmin/ HTTP/1.1" 404 13
+Apr 22 18:56:15 2013 (3079) localhost.localdomain - - "GET /restadmin/ HTTP/1.1" 404 13
+Apr 22 22:55:25 2013 (3079) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Apr 23 01:10:24 2013 (3079) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Apr 23 01:10:33 2013 (3079) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Apr 23 01:10:35 2013 (3079) localhost.localdomain - - "GET /3.0/domains HTTP/1.1" 200 90
+Apr 23 01:10:51 2013 (3079) localhost.localdomain - - "GET /3.0/domains HTTP/1.1" 200 90
+Apr 23 01:10:59 2013 (3079) localhost.localdomain - - "GET /3.0/domains HTTP/1.1" 200 90
+Apr 23 01:11:08 2013 (3079) localhost.localdomain - - "GET /3.0/users HTTP/1.1" 200 512
+Apr 23 01:11:08 2013 (3079) localhost.localdomain - - "GET /3.0/users/294427385166373762440620075950731183626 HTTP/1.1" 200 407
+Apr 23 01:11:08 2013 (3079) localhost.localdomain - - "GET /3.0/users/294427385166373762440620075950731183626/addresses HTTP/1.1" 200 370
+Apr 23 01:11:10 2013 (3079) localhost.localdomain - - "GET /3.0/users HTTP/1.1" 200 512
+Apr 23 01:11:10 2013 (3079) localhost.localdomain - - "GET /3.0/users/294427385166373762440620075950731183626 HTTP/1.1" 200 407
+Apr 23 01:11:10 2013 (3079) localhost.localdomain - - "GET /3.0/users/294427385166373762440620075950731183626/addresses HTTP/1.1" 200 370
+Apr 23 01:11:11 2013 (3079) localhost.localdomain - - "GET /3.0/users HTTP/1.1" 200 512
+Apr 23 01:11:11 2013 (3079) localhost.localdomain - - "GET /3.0/users/294427385166373762440620075950731183626 HTTP/1.1" 200 407
+Apr 23 01:11:11 2013 (3079) localhost.localdomain - - "GET /3.0/users/294427385166373762440620075950731183626/addresses HTTP/1.1" 200 370
+Apr 23 01:11:15 2013 (3079) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Apr 23 01:11:16 2013 (3079) localhost.localdomain - - "GET /3.0/users HTTP/1.1" 200 512
+Apr 23 01:11:16 2013 (3079) localhost.localdomain - - "GET /3.0/users/294427385166373762440620075950731183626 HTTP/1.1" 200 407
+Apr 23 01:11:16 2013 (3079) localhost.localdomain - - "GET /3.0/users/294427385166373762440620075950731183626/addresses HTTP/1.1" 200 370
+Apr 23 01:11:20 2013 (3079) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Apr 23 02:02:17 2013 (3079) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Apr 23 02:02:29 2013 (3079) localhost.localdomain - - "GET /3.0/system HTTP/1.1" 200 272
+Apr 23 02:12:28 2013 (3079) localhost.localdomain - - "POST /3.0/domains HTTP/1.1" 201 0
+Apr 23 02:12:40 2013 (3079) localhost.localdomain - - "GET /3.0/domains/rahulgaur.info HTTP/1.1" 200 293
+Apr 23 02:15:36 2013 (3079) localhost.localdomain - - "GET /3.0/domains HTTP/1.1" 200 398
+Apr 23 02:15:36 2013 (3079) localhost.localdomain - - "GET /3.0/domains/rahulgaur.info HTTP/1.1" 200 293
+Apr 23 02:17:00 2013 (3079) localhost.localdomain - - "GET /3.0/domains/rahulgaur.info HTTP/1.1" 200 293
+Apr 23 02:17:00 2013 (3079) localhost.localdomain - - "GET /3.0/domains/rahulgaur.info HTTP/1.1" 200 293
+Apr 23 02:17:06 2013 (3079) localhost.localdomain - - "GET /3.0/domains/rahulgaur.net HTTP/1.1" 404 13
+Apr 23 02:17:41 2013 (3079) localhost.localdomain - - "POST /3.0/domains HTTP/1.1" 201 0
+Apr 23 02:17:41 2013 (3079) localhost.localdomain - - "GET /3.0/domains/rahulgaur.net HTTP/1.1" 200 288
+Apr 23 02:17:47 2013 (3079) localhost.localdomain - - "POST /3.0/domains HTTP/1.1" 201 0
+Apr 23 02:17:47 2013 (3079) localhost.localdomain - - "GET /3.0/domains/rahulgaur.org HTTP/1.1" 200 288
+Apr 23 02:18:40 2013 (3079) localhost.localdomain - - "GET /3.0/domains HTTP/1.1" 200 978
+Apr 23 02:18:40 2013 (3079) localhost.localdomain - - "GET /3.0/domains/rahulgaur.info HTTP/1.1" 200 293
+Apr 23 02:18:40 2013 (3079) localhost.localdomain - - "GET /3.0/domains/rahulgaur.net HTTP/1.1" 200 288
+Apr 23 02:18:40 2013 (3079) localhost.localdomain - - "GET /3.0/domains/rahulgaur.org HTTP/1.1" 200 288
+Apr 23 02:18:55 2013 (3079) localhost.localdomain - - "GET /3.0/domains HTTP/1.1" 200 978
+Apr 23 02:18:55 2013 (3079) localhost.localdomain - - "GET /3.0/domains/rahulgaur.info HTTP/1.1" 200 293
+Apr 23 02:18:55 2013 (3079) localhost.localdomain - - "GET /3.0/domains/rahulgaur.net HTTP/1.1" 200 288
+Apr 23 02:18:55 2013 (3079) localhost.localdomain - - "GET /3.0/domains/rahulgaur.org HTTP/1.1" 200 288
+Apr 23 02:19:34 2013 (3079) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Apr 23 02:19:44 2013 (3079) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Apr 23 02:19:47 2013 (3079) localhost.localdomain - - "GET /3.0/domains HTTP/1.1" 200 978
+Apr 23 02:19:47 2013 (3079) localhost.localdomain - - "GET /3.0/domains/rahulgaur.info HTTP/1.1" 200 293
+Apr 23 02:19:47 2013 (3079) localhost.localdomain - - "GET /3.0/domains/rahulgaur.net HTTP/1.1" 200 288
+Apr 23 02:19:47 2013 (3079) localhost.localdomain - - "GET /3.0/domains/rahulgaur.org HTTP/1.1" 200 288
+Apr 23 02:20:01 2013 (3079) localhost.localdomain - - "GET /3.0/domains HTTP/1.1" 200 978
+Apr 23 02:20:01 2013 (3079) localhost.localdomain - - "GET /3.0/domains/rahulgaur.info HTTP/1.1" 200 293
+Apr 23 02:20:01 2013 (3079) localhost.localdomain - - "GET /3.0/domains/rahulgaur.net HTTP/1.1" 200 288
+Apr 23 02:20:01 2013 (3079) localhost.localdomain - - "GET /3.0/domains/rahulgaur.org HTTP/1.1" 200 288
+Apr 23 02:20:04 2013 (3079) localhost.localdomain - - "GET /3.0/domains HTTP/1.1" 200 978
+Apr 23 02:20:04 2013 (3079) localhost.localdomain - - "GET /3.0/domains/rahulgaur.info HTTP/1.1" 200 293
+Apr 23 02:20:04 2013 (3079) localhost.localdomain - - "GET /3.0/domains/rahulgaur.net HTTP/1.1" 200 288
+Apr 23 02:20:04 2013 (3079) localhost.localdomain - - "GET /3.0/domains/rahulgaur.org HTTP/1.1" 200 288
+Apr 23 02:20:06 2013 (3079) localhost.localdomain - - "GET /3.0/domains HTTP/1.1" 200 978
+Apr 23 02:20:06 2013 (3079) localhost.localdomain - - "GET /3.0/domains/rahulgaur.info HTTP/1.1" 200 293
+Apr 23 02:20:06 2013 (3079) localhost.localdomain - - "GET /3.0/domains/rahulgaur.net HTTP/1.1" 200 288
+Apr 23 02:20:06 2013 (3079) localhost.localdomain - - "GET /3.0/domains/rahulgaur.org HTTP/1.1" 200 288
+Apr 23 02:20:10 2013 (3079) localhost.localdomain - - "GET /3.0/domains HTTP/1.1" 200 978
+Apr 23 02:20:10 2013 (3079) localhost.localdomain - - "GET /3.0/domains/rahulgaur.info HTTP/1.1" 200 293
+Apr 23 02:20:10 2013 (3079) localhost.localdomain - - "GET /3.0/domains/rahulgaur.net HTTP/1.1" 200 288
+Apr 23 02:20:10 2013 (3079) localhost.localdomain - - "GET /3.0/domains/rahulgaur.org HTTP/1.1" 200 288
+Apr 23 02:20:10 2013 (3079) localhost.localdomain - - "GET /3.0/domains/rahulgaur.info HTTP/1.1" 200 293
+Apr 23 02:20:10 2013 (3079) localhost.localdomain - - "GET /3.0/domains/rahulgaur.info HTTP/1.1" 200 293
+Apr 23 02:20:11 2013 (3079) command failure: /usr/sbin/postmap /home/aregee/workspace/mailman/mailman/var/data/postfix_lmtp, 127, Key has expired
+Apr 23 02:20:11 2013 (3079) command failure: /usr/sbin/postmap /home/aregee/workspace/mailman/mailman/var/data/postfix_domains, 127, Key has expired
+Apr 23 02:20:11 2013 (3079) localhost.localdomain - - "POST /3.0/lists HTTP/1.1" 500 59
+Apr 23 02:20:18 2013 (3079) localhost.localdomain - - "GET /3.0/lists HTTP/1.1" 200 90
+Apr 23 02:20:20 2013 (3079) localhost.localdomain - - "GET /3.0/domains HTTP/1.1" 200 978
+Apr 23 02:20:20 2013 (3079) localhost.localdomain - - "GET /3.0/domains/rahulgaur.info HTTP/1.1" 200 293
+Apr 23 02:20:20 2013 (3079) localhost.localdomain - - "GET /3.0/domains/rahulgaur.net HTTP/1.1" 200 288
+Apr 23 02:20:20 2013 (3079) localhost.localdomain - - "GET /3.0/domains/rahulgaur.org HTTP/1.1" 200 288
+Apr 23 02:20:35 2013 (3079) localhost.localdomain - - "GET /3.0/domains HTTP/1.1" 200 978
+Apr 23 02:20:35 2013 (3079) localhost.localdomain - - "GET /3.0/domains/rahulgaur.info HTTP/1.1" 200 293
+Apr 23 02:20:35 2013 (3079) localhost.localdomain - - "GET /3.0/domains/rahulgaur.net HTTP/1.1" 200 288
+Apr 23 02:20:35 2013 (3079) localhost.localdomain - - "GET /3.0/domains/rahulgaur.org HTTP/1.1" 200 288
+Apr 23 02:20:35 2013 (3079) localhost.localdomain - - "GET /3.0/domains/rahulgaur.info HTTP/1.1" 200 293
+Apr 23 02:20:35 2013 (3079) localhost.localdomain - - "GET /3.0/domains/rahulgaur.info HTTP/1.1" 200 293
+Apr 23 02:20:35 2013 (3079) command failure: /usr/sbin/postmap /home/aregee/workspace/mailman/mailman/var/data/postfix_lmtp, 127, Key has expired
+Apr 23 02:20:35 2013 (3079) command failure: /usr/sbin/postmap /home/aregee/workspace/mailman/mailman/var/data/postfix_domains, 127, Key has expired
+Apr 23 02:20:35 2013 (3079) localhost.localdomain - - "POST /3.0/lists HTTP/1.1" 500 59
+Apr 23 02:22:52 2013 (3079) command failure: /usr/sbin/postmap /home/aregee/workspace/mailman/mailman/var/data/postfix_lmtp, 127, Key has expired
+Apr 23 02:22:52 2013 (3079) command failure: /usr/sbin/postmap /home/aregee/workspace/mailman/mailman/var/data/postfix_domains, 127, Key has expired
+Apr 23 02:28:56 2013 (3072) IncomingRunner runner caught SIGTERM.  Stopping.
+Apr 23 02:28:56 2013 (3067) Master watcher caught SIGTERM.  Exiting.
+Apr 23 02:28:56 2013 (3078) RetryRunner runner caught SIGTERM.  Stopping.
+Apr 23 02:28:56 2013 (3081) LMTPRunner runner caught SIGTERM.  Stopping.
+Apr 23 02:28:56 2013 (3072) IncomingRunner runner exiting.
+Apr 23 02:28:56 2013 (3078) RetryRunner runner exiting.
+Apr 23 02:28:56 2013 (3081) LMTPRunner runner exiting.
+Apr 23 02:28:56 2013 (3073) DigestRunner runner caught SIGTERM.  Stopping.
+Apr 23 02:28:56 2013 (3073) DigestRunner runner exiting.
+Apr 23 02:28:56 2013 (3074) PipelineRunner runner caught SIGTERM.  Stopping.
+Apr 23 02:28:56 2013 (3074) PipelineRunner runner exiting.
+Apr 23 02:28:56 2013 (3077) VirginRunner runner caught SIGTERM.  Stopping.
+Apr 23 02:28:56 2013 (3077) VirginRunner runner exiting.
+Apr 23 02:28:56 2013 (3083) NNTPRunner runner caught SIGTERM.  Stopping.
+Apr 23 02:28:56 2013 (3083) NNTPRunner runner exiting.
+Apr 23 02:28:56 2013 (3076) OutgoingRunner runner caught SIGTERM.  Stopping.
+Apr 23 02:28:56 2013 (3076) OutgoingRunner runner exiting.
+Apr 23 02:28:56 2013 (3080) BounceRunner runner caught SIGTERM.  Stopping.
+Apr 23 02:28:56 2013 (3080) BounceRunner runner exiting.
+Apr 23 02:28:56 2013 (3082) CommandRunner runner caught SIGTERM.  Stopping.
+Apr 23 02:28:56 2013 (3082) CommandRunner runner exiting.
+Apr 23 02:28:56 2013 (3075) ArchiveRunner runner caught SIGTERM.  Stopping.
+Apr 23 02:28:56 2013 (3075) ArchiveRunner runner exiting.
+Apr 23 02:28:56 2013 (3067) Master stopped
+Apr 23 02:29:03 2013 (14830) Master started
+Apr 23 02:29:06 2013 (14842) RetryRunner runner started.
+Apr 23 02:29:06 2013 (14846) CommandRunner runner started.
+Apr 23 02:29:06 2013 (14845) LMTPRunner runner started.
+Apr 23 02:29:06 2013 (14839) ArchiveRunner runner started.
+Apr 23 02:29:07 2013 (14840) OutgoingRunner runner started.
+Apr 23 02:29:07 2013 (14836) IncomingRunner runner started.
+Apr 23 02:29:07 2013 (14847) NNTPRunner runner started.
+Apr 23 02:29:07 2013 (14838) PipelineRunner runner started.
+Apr 23 02:29:07 2013 (14844) BounceRunner runner started.
+Apr 23 02:29:07 2013 (14843) RESTRunner runner started.
+Apr 23 02:29:07 2013 (14843) Starting REST server
+Apr 23 02:29:07 2013 (14841) VirginRunner runner started.
+Apr 23 02:29:08 2013 (14837) DigestRunner runner started.
+Apr 23 02:29:59 2013 (14846) CommandRunner runner caught SIGTERM.  Stopping.
+Apr 23 02:29:59 2013 (14844) BounceRunner runner caught SIGTERM.  Stopping.
+Apr 23 02:29:59 2013 (14847) NNTPRunner runner caught SIGTERM.  Stopping.
+Apr 23 02:29:59 2013 (14846) CommandRunner runner exiting.
+Apr 23 02:29:59 2013 (14844) BounceRunner runner exiting.
+Apr 23 02:29:59 2013 (14847) NNTPRunner runner exiting.
+Apr 23 02:29:59 2013 (14840) OutgoingRunner runner caught SIGTERM.  Stopping.
+Apr 23 02:29:59 2013 (14840) OutgoingRunner runner exiting.
+Apr 23 02:29:59 2013 (14837) DigestRunner runner caught SIGTERM.  Stopping.
+Apr 23 02:29:59 2013 (14837) DigestRunner runner exiting.
+Apr 23 02:32:15 2013 (14841) VirginRunner runner caught SIGTERM.  Stopping.
+Apr 23 02:32:15 2013 (14830) Master watcher caught SIGTERM.  Exiting.
+Apr 23 02:32:15 2013 (14842) RetryRunner runner caught SIGTERM.  Stopping.
+Apr 23 02:32:15 2013 (14841) VirginRunner runner exiting.
+Apr 23 02:32:15 2013 (14842) RetryRunner runner exiting.
+Apr 23 02:32:15 2013 (14838) PipelineRunner runner caught SIGTERM.  Stopping.
+Apr 23 02:32:15 2013 (14838) PipelineRunner runner exiting.
+Apr 23 02:32:15 2013 (14845) LMTPRunner runner caught SIGTERM.  Stopping.
+Apr 23 02:32:15 2013 (14836) IncomingRunner runner caught SIGTERM.  Stopping.
+Apr 23 02:32:15 2013 (14845) LMTPRunner runner exiting.
+Apr 23 02:32:15 2013 (14836) IncomingRunner runner exiting.
+Apr 23 02:32:15 2013 (14830) Master stopped

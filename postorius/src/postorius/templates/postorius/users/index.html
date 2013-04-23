@@ -1,0 +1,35 @@
+{% extends "postorius/base.html" %}
+{% load url from future %}
+{% load i18n %}
+{% load nav_helpers %}
+
+{% block main %}
+    {% if user.is_superuser %}
+        {% users_nav 'user_index' 'Mailman Users' %}
+    {% endif %}
+
+    <table class="table table-bordered table-striped">
+    	<thead>
+    		<tr>
+    			<th>{% trans 'Email' %}</th>
+    			<th>{% trans 'Display name' %}</th>
+    			<!-- th>{% trans 'Web User' %}</th -->
+    			<!--th>{% trans 'Mailman User' %}</th -->
+    		</tr>
+    	</thead>
+    	<tbody>
+            {% for mm_user in mm_users %}
+    		<tr>
+    			<td>
+                    <a href="{% url 'user_summary' user_id=mm_user.user_id %}">{% for address in mm_user.addresses|slice:":1" %}{{ address }}{% endfor %}</a>
+                </td>
+    			<td>
+                    {{ mm_user.display_name }}
+                </td>
+    			<!--td><i class="icon-ok"></i></td -->
+    			<!--td><i class="icon-remove"></i></td -->
+    		</tr>
+            {% endfor %}
+    	</tbody>
+    </table>
+{% endblock main %}

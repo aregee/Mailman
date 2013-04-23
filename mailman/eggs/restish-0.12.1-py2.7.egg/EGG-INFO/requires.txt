@@ -1,0 +1,3 @@
+decorator
+mimeparse>=0.1.3
+WebOb

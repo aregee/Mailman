@@ -1,0 +1,31 @@
+{% extends "postorius/base.html" %}
+{% load url from future %}
+{% load i18n %}
+
+{% block main %}
+    {% include 'postorius/menu/settings_nav.html' %}
+    <h1>{% trans "Domain Index" %}</h1>
+
+    <table class="table table-bordered table-striped">
+    	<thead>
+    		<tr>
+                <th>Mail Host</th>
+                <th>URL Host</th>
+                <th>Contact Address</th>
+                <th>Description</th>
+                <th>&nbsp;</th>
+    		</tr>
+    	</thead>
+    	<tbody>
+            {% for domain in domains %}
+    		<tr>
+    			<td>{{ domain.mail_host }}</td>
+    			<td>{{ domain.base_url }}</td>
+    			<td>{{ domain.contact_address }}</td>
+    			<td>{{ domain.description }}</td>
+    			<td><a href="{% url 'domain_delete' domain.base_url %}" class="btn btn-mini btn-danger">{% trans 'Delete' %}</a></td>
+    		</tr>
+            {% endfor %}
+    	</tbody>
+    </table>
+{% endblock main %}

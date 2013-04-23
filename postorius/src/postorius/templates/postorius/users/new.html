@@ -1,0 +1,17 @@
+{% extends extend_template %}
+{% load url from future %}
+{% load i18n %}    
+{% load nav_helpers %}
+
+{% block main %}
+    {% if user.is_superuser %}
+        {% users_nav 'user_new' 'Create User' %}
+    {% endif %}
+
+    <form action="{% url 'user_new' %}" method="post" class="well"> {% csrf_token %}
+        {{ form.as_p }}
+        <div class="field">
+            <button class="btn btn-success" type="submit">{% trans "Create User" %}</button>
+        </div>
+    </form>
+{% endblock main %}

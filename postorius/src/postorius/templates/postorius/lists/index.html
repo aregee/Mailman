@@ -1,0 +1,36 @@
+{% extends "postorius/base.html" %}
+{% load url from future %}
+{% load i18n %}
+
+{% block main %}
+    <div class="mm_subHeader">
+        <span class="mm_context">{% trans "Mailing Lists" %}</span>
+    {% if user.is_superuser %}
+        <ul class="mm_nav">
+            <li class="mm_nav_item"><a href="{% url 'list_index' %}">{% trans "List Index" %}</a></li>
+            <li class="mm_new_list mm_action"><a class="btn btn-mini btn-success" href="{% url 'list_new' %}">{% trans "Create List" %}</a></li>
+        </ul>    
+    {% endif %}
+    </div>
+
+    <table class="table table-bordered table-striped">
+    	<thead>
+    		<tr>
+    			<th>{% trans 'List name' %}</th>
+    			<th>{% trans 'List address' %}</th>
+    			<th>{% trans 'Description' %}</th>
+    		</tr>
+    	</thead>
+    	<tbody>
+            {% for list in lists %}
+    		<tr>
+    			<td>
+                    <a href="{% url 'list_summary' fqdn_listname=list.fqdn_listname %}">{{ list.display_name }}</a>
+                </td>
+    			<td>{{ list.fqdn_listname }}</td>
+    			<td>{{ list.settings.description }}</td>
+    		</tr>
+            {% endfor %}
+    	</tbody>
+    </table>
+{% endblock main %}

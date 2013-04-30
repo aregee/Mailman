@@ -19,15 +19,17 @@
 from django.conf.urls.defaults import *
 from django.conf import settings
 from django.conf.urls.static import static
-
 from postorius.views import *
+from django.conf.urls import patterns, url
 from postorius.views.generic import *
+from rest_framework.urlpatterns import format_suffix_patterns
 
 
 urlpatterns = patterns(
     'postorius.views',
     (r'^$', 'list_index'),
     # /account/
+    url(r'^serve/$',serve.ApiView.as_view(), name='sys_version'),
     url(r'^accounts/login/$', 'user_login', name='user_login'),
     url(r'^accounts/logout/$', 'user_logout', name='user_logout'),
     url(r'^accounts/profile/$', 'user_profile', name='user_profile'),
@@ -83,4 +85,9 @@ urlpatterns = patterns(
     url(r'^users/(?P<user_id>[^/]+)/$',
         UserSummaryView.as_view(), name='user_summary'),
     url(r'^api/lists/$', 'api_list_index', name='api_list_index'),
+   
+    
+
 ) + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+urlpatterns = format_suffix_patterns(urlpatterns)

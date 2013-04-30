@@ -300,3 +300,46 @@ Apr 23 02:32:15 2013 (14836) IncomingRunner runner caught SIGTERM.  Stopping.
 Apr 23 02:32:15 2013 (14845) LMTPRunner runner exiting.
 Apr 23 02:32:15 2013 (14836) IncomingRunner runner exiting.
 Apr 23 02:32:15 2013 (14830) Master stopped
+Apr 26 01:47:22 2013 (17212) Master started
+Apr 26 01:47:25 2013 (17218) DigestRunner runner started.
+Apr 26 01:47:25 2013 (17222) VirginRunner runner started.
+Apr 26 01:47:25 2013 (17221) OutgoingRunner runner started.
+Apr 26 01:47:25 2013 (17224) RESTRunner runner started.
+Apr 26 01:47:25 2013 (17224) Starting REST server
+Apr 26 01:47:26 2013 (17220) ArchiveRunner runner started.
+Apr 26 01:47:26 2013 (17219) PipelineRunner runner started.
+Apr 26 01:47:26 2013 (17223) RetryRunner runner started.
+Apr 26 01:47:26 2013 (17217) IncomingRunner runner started.
+Apr 26 01:47:26 2013 (17227) CommandRunner runner started.
+Apr 26 01:47:26 2013 (17228) NNTPRunner runner started.
+Apr 26 01:47:26 2013 (17225) BounceRunner runner started.
+Apr 26 07:29:47 2013 (17218) DigestRunner runner caught SIGTERM.  Stopping.
+Apr 26 07:29:47 2013 (17221) OutgoingRunner runner caught SIGTERM.  Stopping.
+Apr 26 07:29:47 2013 (17222) VirginRunner runner caught SIGTERM.  Stopping.
+Apr 26 07:29:48 2013 (17221) OutgoingRunner runner caught SIGTERM.  Stopping.
+Apr 26 07:29:48 2013 (17218) DigestRunner runner caught SIGTERM.  Stopping.
+Apr 26 07:29:48 2013 (17222) VirginRunner runner caught SIGTERM.  Stopping.
+Apr 26 07:29:48 2013 (17221) OutgoingRunner runner exiting.
+Apr 26 07:29:48 2013 (17218) DigestRunner runner exiting.
+Apr 26 07:29:48 2013 (17222) VirginRunner runner exiting.
+Apr 26 07:29:47 2013 (17227) CommandRunner runner caught SIGTERM.  Stopping.
+Apr 26 07:29:48 2013 (17227) CommandRunner runner caught SIGTERM.  Stopping.
+Apr 26 07:29:48 2013 (17227) CommandRunner runner exiting.
+Apr 26 07:29:47 2013 (17219) PipelineRunner runner caught SIGTERM.  Stopping.
+Apr 26 07:29:48 2013 (17219) PipelineRunner runner caught SIGTERM.  Stopping.
+Apr 26 07:29:48 2013 (17219) PipelineRunner runner exiting.
+Apr 26 07:29:47 2013 (17220) ArchiveRunner runner caught SIGTERM.  Stopping.
+Apr 26 07:29:48 2013 (17220) ArchiveRunner runner caught SIGTERM.  Stopping.
+Apr 26 07:29:48 2013 (17220) ArchiveRunner runner exiting.
+Apr 26 07:29:48 2013 (17217) IncomingRunner runner caught SIGTERM.  Stopping.
+Apr 26 07:29:48 2013 (17217) IncomingRunner runner caught SIGTERM.  Stopping.
+Apr 26 07:29:48 2013 (17217) IncomingRunner runner exiting.
+Apr 26 07:29:47 2013 (17228) NNTPRunner runner caught SIGTERM.  Stopping.
+Apr 26 07:29:48 2013 (17228) NNTPRunner runner caught SIGTERM.  Stopping.
+Apr 26 07:29:48 2013 (17228) NNTPRunner runner exiting.
+Apr 26 07:29:48 2013 (17225) BounceRunner runner caught SIGTERM.  Stopping.
+Apr 26 07:29:48 2013 (17225) BounceRunner runner caught SIGTERM.  Stopping.
+Apr 26 07:29:48 2013 (17225) BounceRunner runner exiting.
+Apr 26 07:29:48 2013 (17223) RetryRunner runner caught SIGTERM.  Stopping.
+Apr 26 07:29:48 2013 (17223) RetryRunner runner caught SIGTERM.  Stopping.
+Apr 26 07:29:49 2013 (17223) RetryRunner runner exiting.

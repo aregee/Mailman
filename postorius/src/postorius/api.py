@@ -82,7 +82,8 @@ class MailResource(Resource):
         
         
     def _client(self):
-        return post.Client()
+        return post.Client('%s/3.0' % settings.REST_SERVER,
+                             settings.API_USER, settings.API_PASS)
     
     def _bucket(self):
         client = self._client()

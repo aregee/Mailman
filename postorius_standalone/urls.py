@@ -19,10 +19,10 @@
 import postorius
 
 from django.conf.urls.defaults import *
+from postorius.views import *
 from django.conf import settings
-from postorius.api import MailResource
-
-my_res = MailResource()
+from restfm import views 
+from rest_framework.urlpatterns import format_suffix_patterns
 
 # Uncomment the next two lines to enable the admin:
 from django.contrib import admin
@@ -38,6 +38,9 @@ urlpatterns = patterns('',
     url(r'^$', 'postorius.views.list_index'),
     (r'^postorius/', include('postorius.urls')),
 	url(r'', include('social_auth.urls')),
-        url(r'^api/',include(my_res.urls)),
+          url(r'^restfm/$', views.ApiView.as_view() , name='restfm'),
+           url(r'^restfm/system/$', views.MyView.as_view() , name='system'),
+ 
 
 )
+

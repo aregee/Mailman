@@ -143,8 +143,13 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'postorius',
     'social_auth',
-    'tastypie',
+    'rest_framework',
+    'restfm',
+    
 )
+
+
+
 LOGIN_URL          = '/postorius/accounts/login/'
 LOGIN_REDIRECT_URL = '/postorius/'
 LOGIN_ERROR_URL    = '/postorius/accounts/login/'
